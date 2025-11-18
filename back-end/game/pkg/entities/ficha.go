@@ -1,4 +1,4 @@
-package models_test
+package entities
 
 type Jugador struct {
 	NombreJugador string
@@ -12,5 +12,3 @@ func NewJugador(nombre string, color Color) *Jugador {
 		Color:         color,
 	}
 }
-
-

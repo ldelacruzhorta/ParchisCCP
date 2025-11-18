@@ -1,13 +1,13 @@
-package models
+package entities
 
 // Definimos un nuevo tipo llamado Color
-type TipoDePosicion int
+type Color int
 
 // Declaramos las constantes con iota
 // iodta sirve para poner un contador autimatico
 const (
-	BASE = iota
-	SEGURO
-	SALIDA
-	NORMAL
+	Rojo Color = iota
+	Azul
+	Verde
+	Amarillo
 )
